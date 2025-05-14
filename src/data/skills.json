@@ -1,0 +1,46 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "css.png"
+  },
+  {
+    "title": "Javascript",
+    "imageSrc": "javascript.webp"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "bootstrap.png"
+  },
+  {
+    "title": "Tailwind",
+    "imageSrc": "tailwind.png"
+  },
+  {
+    "title": "React.js",
+    "imageSrc": "react.webp"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "node.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "mysql.png"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "postgres.png"
+  },
+  {
+    "title": "Prisma ORM",
+    "imageSrc": "prisma.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "figma.png"
+  }
+]

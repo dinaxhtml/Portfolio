@@ -1,0 +1,95 @@
+@import "../../vars.css";
+
+.projectCard {
+  background-color: #fff;
+  border: 1px solid #fff;
+  min-height: 14em;
+  width: 23em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 15px;
+  transition: 0.5s ease;
+}
+.projectCard:hover {
+  transform: scale(1.05);
+}
+.projectImage .image {
+  width: 100%;
+}
+.projectImage source {
+  width: 100%;
+}
+.projectInfo {
+  padding: 1em;
+}
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.description {
+  margin-top: 6px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.skills {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+  color: var(--color-bg);
+}
+.skill {
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: var(--color-dark);
+  padding: 2px 15px;
+}
+.links {
+  margin-top: 15px;
+  gap: 5px;
+  align-items: center;
+  display: flex;
+}
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 45px;
+  font-weight: 600;
+  width: 50px;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.5s ease;
+  background: var(--color-primary);
+}
+.link:hover {
+  background: var(--color-secondary);
+}
+@media screen and (max-width: 425px) {
+  .projectCard {
+    width: 20rem;
+  }
+  .skill {
+    font-size: 14px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .description {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .projectCard {
+    width: 18rem;
+  }
+}

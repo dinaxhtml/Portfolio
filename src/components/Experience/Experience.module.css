@@ -1,0 +1,122 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 14px;
+}
+.skills {
+  width: 45%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+}
+.skillImageContainer img {
+  width: 65px;
+}
+.skill p {
+  font-size: 25px;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+}
+.certificates {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.certificate {
+  display: flex;
+  gap: 17px;
+  background: var(--color-primary);
+  background: linear-gradient(90deg, #73bc8b 0%, rgba(25, 55, 109, 0) 100%);
+  border-radius: 10px;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.certificate img {
+  width: 70px;
+}
+.certificateDetails {
+  font-family: var(--font-roboto);
+}
+.certificateDetails h3 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+.certificateDetails p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+}
+.certificateDetails ul {
+  margin-top: 6px;
+  list-style-position: inside;
+  font-size: 23px;
+  list-style-type: disc;
+  text-align: left;
+  margin-left: 0px;
+}
+.certificateDetails ul li {
+  padding: 3px 0px;
+}
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+  .skills {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .skill p {
+    font-size: 20px;
+  }
+  .skillImageContainer {
+    width: 80px;
+    height: 80px;
+  }
+  .skillImageContainer img {
+    width: 45px;
+  }
+  .certificates {
+    width: 100%;
+    gap: 9px;
+  }
+}

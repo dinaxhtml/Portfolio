@@ -1,0 +1,31 @@
+@import "../../vars.css";
+
+.footer {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  margin-top: 30px;
+}
+.footerTitle {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.footerTitle span {
+  color: var(--color-dark);
+}
+.footer .socialIcons a {
+  font-size: 1.3em;
+  padding: 0px 12px 0px 0px;
+}
+.socialIcons a {
+  color: var(--color-text);
+  font-size: 1.7em;
+  padding-right: 30px;
+}
+@media (max-width: 767px) {
+  .footer .socialIcons a {
+    font-size: 1.2em;
+  }
+}

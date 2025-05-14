@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Social Media Clone",
+    "imageSrc": "social.gif",
+    "description": "A Facebook-like website with posting, commenting, authentication, updating profile, follow/unfollow features.",
+    "skills": [
+      "React",
+      "Node",
+      "Express",
+      "MySQL",
+      "JWT",
+      "RESTful API",
+      "Material UI"
+    ],
+    "demo": "https://github.com/dinaxhtml/social-clone/blob/main/README.md",
+    "source": "https://github.com/dinaxhtml/social-clone"
+  },
+  {
+    "title": "Prayers Time",
+    "imageSrc": "prayers.png",
+    "description": "I used Al-Adhan API to get the timings by country ISO2 & city name.",
+    "skills": ["React", "Axios", "RESTful API"],
+    "demo": "https://cities-prayers-time.netlify.app/",
+    "source": "https://github.com/dinaxhtml/prayers-time-react.js"
+  },
+  {
+    "title": "أذكارُنا",
+    "imageSrc": "athkaruna.png",
+    "description": "User-friendly website that displays the athkar categorized by morning, evening and sleep athkar, quran and messengers prayers.",
+    "skills": ["HTML", "Bootstrap CSS", "JS"],
+    "demo": "https://athkaruna.netlify.app/",
+    "source": "https://github.com/dinaxhtml/athkaruna"
+  },
+
+  {
+    "title": "Animals Sounds",
+    "imageSrc": "animalsSound.png",
+    "description": "I used javascript to play the sound of an animal either onClick or onKeydown of the initial letter.",
+    "skills": ["HTML", "Bootstrap CSS", "JS"],
+    "demo": "https://animals-sounds-for-kids.netlify.app/",
+    "source": "https://github.com/dinaxhtml/animals-sounds"
+  },
+  {
+    "title": "Live Characters Counter",
+    "imageSrc": "charactersCounter.gif",
+    "description": "I used javascript to calculate the characters while typing.",
+    "skills": ["HTML", "CSS", "JS"],
+    "demo": "https://characters-counter-bydina.netlify.app/",
+    "source": "https://github.com/dinaxhtml/characters-counter"
+  },
+  {
+    "title": "CSS Style Changer",
+    "imageSrc": "changer.png",
+    "description": "Users can modify text color, and image (width, border-radius, padding and blur).",
+    "skills": ["HTML", "CSS", "JS"],
+    "demo": "https://css-style-changer.netlify.app/",
+    "source": "https://github.com/dinaxhtml/CSS-changer"
+  },
+  {
+    "title": "Expenses Tracker",
+    "imageSrc": "expense.gif",
+    "description": "Allows users to add or delete expenses for finance management.",
+    "skills": ["HTML", "CSS", "JS"],
+    "demo": "https://expenses-tracker-bydina.netlify.app/",
+    "source": "https://github.com/dinaxhtml/Expenses-Tracker"
+  },
+  {
+    "title": "Password Generator",
+    "imageSrc": "passwordGenerate.png",
+    "description": "Generating random passwords based on user-selected criteria (length, uppercase letters, numbers, and special characters).",
+    "skills": ["HTML", "CSS", "JS"],
+    "demo": "https://password-generator-dina.netlify.app/",
+    "source": "https://github.com/dinaxhtml/Password-Generator"
+  },
+
+  {
+    "title": "Stardust Flowers Shop Clone",
+    "imageSrc": "flowers.png",
+    "description": "Flowers shop landing page clone with products listings, and a responsive design.",
+    "skills": ["HTML", "Bootstrap CSS"],
+    "demo": "https://dinaxhtml.github.io/flowers-shop/",
+    "source": "https://github.com/dinaxhtml/flowers-shop"
+  },
+  {
+    "title": "Glass Morphism",
+    "imageSrc": "glass.png",
+    "description": "A responsive glass morphism hero section design for modern landing pages. It was a part of a Twitter coding challenge.",
+    "skills": ["HTML", "CSS"],
+    "demo": "https://dinaxhtml.github.io/glass-morphism/",
+    "source": "https://github.com/dinaxhtml/glass-morphism"
+  },
+  {
+    "title": "KSA Founding Day",
+    "imageSrc": "ksa.png",
+    "description": "A landing page clone for the KSA founding day offical website. It was a part of a Twitter coding challenge.",
+    "skills": ["HTML", "CSS"],
+    "demo": "https://dinaxhtml.github.io/sa-founding-day/#",
+    "source": "https://github.com/dinaxhtml/sa-founding-day"
+  },
+  {
+    "title": "Calculator",
+    "imageSrc": "calculator.png",
+    "description": "A responsive, fully functional simple calculator using javascript.",
+    "skills": ["HTML", "CSS", "JS"],
+    "demo": "https://dinaxhtml.github.io/calculator/",
+    "source": "https://github.com/dinaxhtml/calculator"
+  },
+  {
+    "title": "Coachbit Membership Plans Clone",
+    "imageSrc": "membership.png",
+    "description": "A responsive, modern clone for Coachbit membership plans page.",
+    "skills": ["HTML", "CSS"],
+    "demo": "https://dinaxhtml.github.io/Coachbit-Clone/",
+    "source": "https://github.com/dinaxhtml/Coachbit-Clone"
+  },
+  {
+    "title": "Elzero Template 3 Clone",
+    "imageSrc": "template.PNG",
+    "description": "A modern and fully responsive template created to practice front-end development and design skills.",
+    "skills": ["HTML", "CSS"],
+    "demo": "https://dinaxhtml.github.io/template-three/",
+    "source": "https://github.com/dinaxhtml/template-three"
+  }
+]
