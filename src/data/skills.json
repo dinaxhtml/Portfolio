@@ -24,9 +24,9 @@
     "imageSrc": "react.webp"
   },
   {
-    "title":"Next.js",
+    "title": "Next.js",
     "imageSrc": "next.png"
-  
+  },
   {
     "title": "Node.js",
     "imageSrc": "node.png"
